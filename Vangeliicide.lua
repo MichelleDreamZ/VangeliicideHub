@@ -7,9 +7,9 @@ getgenv().TFjhJhggCUo = true
 local wind = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 local window = wind:CreateWindow({
     Title = "VangeliicideHub",
-    Icon = "rbxassetid://139687752061139",
+    Icon = "rbxassetid://1113768539563126",
     Author = "by Vangeliicide",
-    Folder = "VexalScriptsMvsdScript",
+    Folder = "VangeliicideHubMVS",
     Size = UDim2.fromOffset(650, 430),
     MinSize = Vector2.new(450, 250),
     MaxSize = Vector2.new(850, 560),
@@ -28,8 +28,8 @@ local window = wind:CreateWindow({
     },
 })
 window:EditOpenButton({
-    Title = "Vangeliicide",
-    Icon = "rbxassetid://",
+    Title = "VangeliicideHub",
+    Icon = "rbxassetid://113768539563126",
     CornerRadius = UDim.new(0, 16),
     StrokeThickness = 2,
     Color = ColorSequence.new(
@@ -56,7 +56,7 @@ Welcome:Paragraph({
     Desc =
     "We hope you find this script useful, if you find any issues please report them below to my discord by making a ticket, thank you for using us!",
     Color = Color3.fromHex("#1756B8"),
-    Thumbnail = "rbxassetid://139687752061139",
+    Thumbnail = "rbxassetid://113768539563126",
     ThumbnailSize = 150,
     Buttons = {
         {
@@ -308,14 +308,14 @@ local function NotSupportedFeature()
             Content =
             "Sorry! Your executor isn't supported to run this feature, we have made sure of that by running simple checks once you loaded this script!",
             Duration = 3,
-            Icon = "rbxassetid://",
+            Icon = "rbxassetid://113768539563126",
         })
 
         wind:Notify({
             Title = "Notice!",
             Content = "If your on PC/Laptop, try using Velocity (its free!), on Android/Ios please try using Delta!",
             Duration = 3,
-            Icon = "rbxassetid://",
+            Icon = "rbxassetid://113768539563126",
         })
     end
 end
@@ -324,17 +324,17 @@ local function FeatureActivated(boolean)
         wind:Notify({
             Title = "Activated Feature!!",
             Content =
-            "Enjoying Vexal Scripts? Join our discord server located in the Welcome tab for even better stuff!",
+            "Enjoying VangeliicideHub? Join our discord server located in the Welcome tab for even better stuff!",
             Duration = 3,
-            Icon = "rbxassetid://",
+            Icon = "rbxassetid://113768539563126",
         })
     else
         wind:Notify({
             Title = "Disabled Feature!!",
             Content =
-            "Enjoying Vexal Scripts? Join our discord server located in the Welcome tab for even better stuff!",
+            "Enjoying VangeliicideHub? Join our discord server located in the Welcome tab for even better stuff!",
             Duration = 3,
-            Icon = "rbxassetid://",
+            Icon = "rbxassetid://113768539563126",
         })
     end
 end
@@ -1086,9 +1086,9 @@ Killing:Button({ -- [GUN] Kill all players once
                 wind:Notify({
                     Title = "Killing all players!",
                     Content =
-                    "Enjoying Vexal Scripts? Join our discord server located in the Welcome tab for even better stuff!",
+                    "Enjoying VangeliicideHub? Join our discord server located in the Welcome tab for even better stuff!",
                     Duration = 3,
-                    Icon = "rbxassetid://139687752061139",
+                    Icon = "rbxassetid://113768539563126",
                 })
                 for _, plr in matchEnemies do
                     if plr.Team ~= player.Team and plr.Character and plr.Character:FindFirstChild("HumanoidRootPart") then
@@ -1158,7 +1158,7 @@ Killing:Button({ -- [KNIFE] Kill all players once
                     Content =
                     "Enjoying VangeliicideHub? Join our discord server located in the Welcome tab for even better stuff!",
                     Duration = 3,
-                    Icon = "rbxassetid://",
+                    Icon = "rbxassetid://113768539563126",
                 })
                 for _, target in ipairs(Players:GetPlayers()) do
                     if target ~= player and target.Character then
@@ -1732,9 +1732,9 @@ if lobby and lobby:FindFirstChild("DuelRingsGroup") then
                             wind:Notify({
                                 Title = "Walking to position!",
                                 Content =
-                                "Enjoying Vexal Scripts? Join our discord server located in the Welcome tab for even better stuff!",
+                                "Enjoying VangeliicideHub? Join our discord server located in the Welcome tab for even better stuff!",
                                 Duration = 3,
-                                Icon = "rbxassetid://139687752061139",
+                                Icon = "rbxassetid://113768539563126",
                             })
 
                             walkTo(model)
@@ -2178,7 +2178,7 @@ Settings:Button({
     end
 })
 wind:Notify({
-    Title = "Welcome to Vangeliicide Scripts MVSD",
+    Title = "Welcome to VangeliicideHub MVSD",
     Duration = 15,
-    Icon = "rbxassetid://",
+    Icon = "rbxassetid://113768539563126",
 })
